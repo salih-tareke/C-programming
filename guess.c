@@ -8,8 +8,9 @@ int main()
 
     while (guess != num)
     {
-        printf("wrong guess");
+        printf("wrong guess \n");
+        return 1;
     }
-    
-    printf ("correct");
+
+    printf ("correct"); 
 }
